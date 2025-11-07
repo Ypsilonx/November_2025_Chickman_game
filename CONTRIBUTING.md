@@ -1,6 +1,6 @@
-# Přispívání do Pacman Game
+# Přispívání do Chickman Game
 
-Děkujeme za zájem o přispění do tohoto projektu! 🎉
+Děkujeme za zájem o přispění do Chickman! Tento dokument obsahuje pravidla a postupy pro přispívání do projektu.
 
 ## 📋 Obsah
 
@@ -22,8 +22,8 @@ Tento projekt dodržuje [Code of Conduct](CODE_OF_CONDUCT.md). Účastí souhlas
 ```bash
 # Fork repozitář přes GitHub UI
 # Pak naklonuj svůj fork
-git clone https://github.com/TVŮJ_USERNAME/pacman-game.git
-cd pacman-game
+git clone https://github.com/TVŮJ_USERNAME/chickman-game.git
+cd chickman-game
 ```
 
 ### 2. Vytvoř Branch
@@ -211,7 +211,7 @@ def power_pellet_collected(self, player: Player) -> int:
 
 ### Před reportováním
 
-1. Zkontroluj [existující issues](https://github.com/yourusername/pacman-game/issues)
+1. Zkontroluj [existující issues](https://github.com/yourusername/chickman-game/issues)
 2. Ujisti se, že používáš nejnovější verzi
 3. Zkus reprodukovat bug
 
@@ -269,7 +269,7 @@ Pro větší změny prosím:
 ## Otázky?
 
 - 💬 Discord: [junior.guru](https://junior.guru/discord/)
-- 📧 Issues: [GitHub Issues](https://github.com/yourusername/pacman-game/issues)
+- 📧 Issues: [GitHub Issues](https://github.com/yourusername/chickman-game/issues)
 
 ---
 

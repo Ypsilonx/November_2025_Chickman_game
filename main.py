@@ -1,7 +1,7 @@
 """
-Pacman-Style Game
-=================
-A modern implementation of classic Pacman game with custom modifications.
+Chickman Game
+=============
+An infinite runner game where a brave chicken collects seeds while avoiding ghosts.
 Created for junior.guru Discord community challenge.
 
 Entry point for the game application.
@@ -14,12 +14,12 @@ from pathlib import Path
 src_path = Path(__file__).parent / "src"
 sys.path.insert(0, str(src_path))
 
-from pacman.game import PacmanGame
+from pacman.game import ChickmanGame
 
 
 def main():
     """Main entry point for the game."""
-    game = PacmanGame()
+    game = ChickmanGame()
     game.run()
 
 

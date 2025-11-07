@@ -7,8 +7,8 @@ Tato složka obsahuje všechny herní assety (grafika, zvuky, mapy).
 ```
 assets/
 ├── sprites/        # Grafika (PNG, sprite sheets)
-│   ├── player/    # Pacman animace
-│   ├── ghosts/    # Duchové animace
+│   ├── chicken/    # Chickman (kuře) animace
+│   ├── foxes/      # Lišky animace
 │   ├── tiles/     # Dlaždice bludiště
 │   └── ui/        # UI elementy
 │
@@ -26,8 +26,8 @@ assets/
 
 - **Formát:** PNG s transparencí
 - **Velikost:**
-  - Player: 28x28 px
-  - Ghosts: 28x28 px
+  - Chicken: 28x28 px
+  - Foxes: 28x28 px
   - Tiles: 32x32 px
   - UI: variable
 - **Barvy:** RGB, 32-bit
@@ -49,23 +49,22 @@ assets/
 ## 📝 Asset Checklist
 
 ### Sprites (TODO)
-- [ ] Pacman idle
-- [ ] Pacman moving (4 directions)
-- [ ] Pacman death animation
-- [ ] Ghost sprites (4 colors x 2 directions)
-- [ ] Ghost frightened
-- [ ] Ghost eyes
-- [ ] Dots & power pellets
-- [ ] Fruits (cherry, strawberry, orange, etc.)
+- [ ] Chickman idle
+- [ ] Chickman moving (4 directions)
+- [ ] Chickman power mode
+- [ ] Fox sprites (4 colors x 2 directions)
+- [ ] Fox frightened
+- [ ] Fox eyes (eaten state)
+- [ ] Seeds & super seeds
+- [ ] Fruits (bonus items)
 - [ ] Wall tiles
 
 ### Sounds (TODO)
-- [ ] Waka waka (eating dots)
-- [ ] Power pellet sound
-- [ ] Ghost eaten
-- [ ] Death sound
-- [ ] Level complete
+- [ ] Eating seeds sound
+- [ ] Super seed power up
+- [ ] Fox caught
 - [ ] Game over
+- [ ] Level complete
 - [ ] Menu select
 - [ ] Background music
 

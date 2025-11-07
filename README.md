@@ -1,23 +1,23 @@
-# 🎮 Pacman Game - Junior.guru Community Challenge
+# 🐔 Chickman - Junior.guru Community Challenge
 
 [![Python Version](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-Moderní implementace klasické hry Pacman s vlastními modifikacemi, vytvořená jako výzva pro komunitu [junior.guru](https://junior.guru) na Discordu.
+An infinite runner game where a brave chicken collects seeds while avoiding cunning foxes! Created as a challenge for the [junior.guru](https://junior.guru) Discord community.
 
 ![Game Screenshot](docs/screenshot.png)
 *Screenshot bude přidán po implementaci*
 
 ## ✨ Features
 
-- 🕹️ Klasická Pacman mechanika s moderními vylepšeními
-- 👻 Inteligentní AI pro duchy s různými strategiemi
-- 🎨 Čistá a modulární kódová struktura
-- 🎵 Zvukové efekty a hudba
-- 📊 Systém skóre a žebříčků
-- 🎯 Několik úrovní obtížnosti
-- 🔧 Snadno rozšiřitelné a modifikovatelné
+- � Play as a brave chicken collecting seeds
+- 🦊 Avoid cunning foxes with unique AI behaviors
+- 🌾 Collect seeds and power-up super seeds
+- 🎨 Clean and modular code structure
+- � Multiple difficulty levels
+- � Easily extensible and modifiable
+- 💪 Power mode: Turn the tables on the foxes!
 
 ## 🚀 Rychlý start
 
@@ -30,8 +30,8 @@ Moderní implementace klasické hry Pacman s vlastními modifikacemi, vytvořen�
 
 1. **Naklonuj repozitář:**
    ```bash
-   git clone https://github.com/yourusername/pacman-game.git
-   cd pacman-game
+   git clone https://github.com/yourusername/chickman-game.git
+   cd chickman-game
    ```
 
 2. **Vytvoř virtuální prostředí:**
@@ -62,16 +62,16 @@ Moderní implementace klasické hry Pacman s vlastními modifikacemi, vytvořen�
 - **R** - Restart hry
 
 ### Cíl hry
-- Sněz všechny tečky v bludišti
-- Vyhýbej se duchům (nebo je sněz po power pelletu!)
+- Sbírej všechny semínka na mapě 🌾
+- Vyhýbej se liškám (nebo je chyť po super semínku! 🦊)
 - Získej co nejvyšší skóre
 
 ## 🏗️ Struktura projektu
 
 ```
-pacman-game/
-├── src/pacman/          # Hlavní zdrojové soubory
-│   ├── entities/        # Hráč, duchové, sbíratelné předměty
+chickman-game/
+├── src/pacman/          # Hlavní zdrojové soubory (název složky zachován pro kompatibilitu)
+│   ├── entities/        # Kuře (chicken), lišky (foxes), semínka (seeds)
 │   ├── maps/            # Bludiště a level design
 │   ├── ui/              # Menu, HUD, UI komponenty
 │   ├── utils/           # Pomocné funkce a konstanty
@@ -134,13 +134,13 @@ Tento projekt je licencován pod MIT licencí - viz [LICENSE](LICENSE) soubor.
 
 - [Junior.guru](https://junior.guru) komunita za inspiraci a podporu
 - [Python Arcade](https://api.arcade.academy/) za skvělý herní framework
-- Původní Pacman od Namco za ikonickou hru
+- Inspirováno klasickým Pacmanem od Namco
 
 ## 📞 Kontakt
 
 - Discord: [junior.guru](https://junior.guru/discord/)
-- Issues: [GitHub Issues](https://github.com/yourusername/pacman-game/issues)
+- Issues: [GitHub Issues](https://github.com/yourusername/chickman-game/issues)
 
 ---
 
-Vytvořeno s ❤️ pro junior.guru komunitu
+Vytvořeno s ❤️ a 🐔 pro junior.guru komunitu

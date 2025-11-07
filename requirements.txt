@@ -1,4 +1,4 @@
-# Python Arcade Pacman Game
+# Python Arcade Chickman Game
 
 # Core dependencies
 arcade>=2.6.17

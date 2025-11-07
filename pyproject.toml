@@ -3,16 +3,16 @@ requires = ["setuptools>=65.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pacman-game"
+name = "chickman-game"
 version = "0.1.0"
-description = "A modern Pacman-style game built with Python Arcade for junior.guru community"
+description = "An infinite runner game where a brave chicken collects seeds while avoiding foxes. Built with Python Arcade for junior.guru community"
 readme = "README.md"
 requires-python = ">=3.9"
 license = {text = "MIT"}
 authors = [
     {name = "Junior.guru Community"},
 ]
-keywords = ["game", "pacman", "arcade", "python"]
+keywords = ["game", "chickman", "arcade", "python", "chicken", "infinite-runner"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Education",
@@ -42,12 +42,12 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/pacman-game"
-Repository = "https://github.com/yourusername/pacman-game"
-Issues = "https://github.com/yourusername/pacman-game/issues"
+Homepage = "https://github.com/yourusername/chickman-game"
+Repository = "https://github.com/yourusername/chickman-game"
+Issues = "https://github.com/yourusername/chickman-game/issues"
 
 [project.scripts]
-pacman = "pacman.game:main"
+chickman = "pacman.game:main"
 
 [tool.black]
 line-length = 88

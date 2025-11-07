@@ -1,1 +1,1 @@
-"""Test suite for Pacman game."""
+"""Test suite for Chickman game."""

@@ -1,5 +1,5 @@
 """
-Basic smoke test to verify project structure.
+Basic smoke test to verify Chickman project structure.
 """
 
 import sys
@@ -13,7 +13,7 @@ def test_imports():
         from pacman import utils
         from pacman.utils import constants
         assert pacman.__version__ == "0.1.0"
-        assert constants.SCREEN_WIDTH == 800
+        assert constants.SCREEN_WIDTH == 1024
     except ImportError as e:
         assert False, f"Import failed: {e}"
 
@@ -60,14 +60,14 @@ def test_required_files():
 
 
 def test_constants_values():
-    """Test that constants are properly defined."""
+    """Test that Chickman constants are properly defined."""
     from pacman.utils.constants import (
         SCREEN_WIDTH,
         SCREEN_HEIGHT,
         SCREEN_TITLE,
         FPS,
         TILE_SIZE,
-        PLAYER_SPEED,
+        CHICKEN_SPEED,
         STARTING_LIVES,
     )
     
@@ -77,5 +77,5 @@ def test_constants_values():
     assert isinstance(SCREEN_TITLE, str) and len(SCREEN_TITLE) > 0
     assert isinstance(FPS, int) and FPS > 0
     assert isinstance(TILE_SIZE, int) and TILE_SIZE > 0
-    assert isinstance(PLAYER_SPEED, (int, float)) and PLAYER_SPEED > 0
+    assert isinstance(CHICKEN_SPEED, (int, float)) and CHICKEN_SPEED > 0
     assert isinstance(STARTING_LIVES, int) and STARTING_LIVES > 0

@@ -2,7 +2,7 @@
 
 ## 🎮 Projekt
 
-**Pacman Game - Junior.guru Challenge**  
+**Chickman Game - Junior.guru Challenge**  
 Vytvořeno komunitou [junior.guru](https://junior.guru)
 
 ## 👥 Hlavní přispěvatelé
@@ -23,7 +23,7 @@ Vytvořeno komunitou [junior.guru](https://junior.guru)
 
 ## 🙏 Poděkování
 
-- **Toru Iwatani** - Original Pacman creator (Namco, 1980)
+- **Toru Iwatani** - Original Pacman creator (Namco, 1980) - inspirace pro herní mechaniky
 - **Python Arcade Community** - Za skvělý framework
 - **Junior.guru** - Za inspiraci a podporu
 - **PEP 8** - Za style guide

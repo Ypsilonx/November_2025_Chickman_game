@@ -1,8 +1,8 @@
-# 📋 Project Summary - Pacman Game
+# 📋 Project Summary - Chickman Game
 
 ## 🎯 Co bylo vytvořeno
 
-Profesionální struktura projektu pro Pacman-style hru v Pythonu s frameworkem Arcade, připravená k publikaci na GitHub a vývoji pro junior.guru komunitu.
+Profesionální struktura projektu pro Chickman - hru kde kuře sbírá semínka v Pythonu s frameworkem Arcade, připravená k publikaci na GitHub a vývoji pro junior.guru komunitu.
 
 ---
 
@@ -143,11 +143,10 @@ STARTING_LIVES = 3
 
 ## 🎮 Herní mechaniky (z designu)
 
-### Hráč (Pacman)
-- 4směrný pohyb (šipky/WASD)
-- Teleport tunely
-- Žvýkací animace
-- Animace smrti
+### Hráč (Chickman - kuře)
+- **Entity class** - pozice, směr, rychlost
+- **Animace** - pohyb, idle
+- **Kolize** - se zdmi, semínky, liškami
 
 ### Duchové (4x s různou AI)
 1. **Blinky (🔴):** Direct chase
@@ -199,7 +198,7 @@ STARTING_LIVES = 3
 
 2. **Vytvoř GitHub repository:**
    - Jdi na GitHub → New Repository
-   - Název: `pacman-game` nebo `junior-guru-pacman`
+   - Název: `chickman-game` nebo `junior-guru-chickman`
    - Push kód:
      ```bash
      git remote add origin https://github.com/YOUR_USERNAME/REPO_NAME.git
