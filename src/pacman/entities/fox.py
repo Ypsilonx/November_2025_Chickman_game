@@ -11,6 +11,7 @@ from pacman.utils.constants import (
     TILE_SIZE,
     FOX_SPEED,
     FOX_SCARED_SPEED,
+    FOX_SIZE,
     COLOR_FOX_SCARED,
     COLOR_FOX_RUSTY,
     COLOR_FOX_GINGER,
@@ -68,7 +69,7 @@ class Fox:
         self.state = FoxState.SCATTER
         
         # Size
-        self.radius = 14
+        self.radius = FOX_SIZE // 2
         
         # Spawn point (for returning after eaten)
         self.spawn_x = x

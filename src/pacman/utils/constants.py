@@ -4,24 +4,25 @@ All magic numbers and configuration should be defined here.
 """
 
 # Window settings
-SCREEN_WIDTH = 1024
-SCREEN_HEIGHT = 768
+SCREEN_WIDTH = 1200  # Reduced from 1600 to fit screen better
+SCREEN_HEIGHT = 900  # Reduced from 1200 to fit screen better
 SCREEN_TITLE = "Chickman - Junior.guru Challenge"
 FPS = 60
 
 # Game grid settings
-TILE_SIZE = 32  # Size of each grid tile in pixels
-GRID_WIDTH = SCREEN_WIDTH // TILE_SIZE
-GRID_HEIGHT = SCREEN_HEIGHT // TILE_SIZE
+TILE_SIZE = 50  # Increased from 32 to 50 for better sprite visibility
+GRID_WIDTH = SCREEN_WIDTH // TILE_SIZE  # 24 tiles wide
+GRID_HEIGHT = SCREEN_HEIGHT // TILE_SIZE  # 18 tiles tall
 
 # Chicken (player) settings
-CHICKEN_SPEED = 3
-CHICKEN_SIZE = 28
+CHICKEN_SPEED = 5  # Adjusted for larger tiles
+CHICKEN_SIZE = 48  # Increased from 28 to 48 for better visibility
 
 # Fox (enemy) settings
-FOX_SPEED = 2.5
-FOX_SCARED_SPEED = 1.5
+FOX_SPEED = 4  # Adjusted for larger tiles
+FOX_SCARED_SPEED = 2.5  # Adjusted for larger tiles
 FOX_SCARED_TIME = 10.0  # seconds
+FOX_SIZE = 48  # Size for fox sprites
 
 # Game mechanics
 STARTING_LIVES = 3

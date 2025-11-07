@@ -1,1 +1,1 @@
-"""Game entities (player, ghosts, collectibles)."""
+"""Game entities (player, foxes, collectibles)."""

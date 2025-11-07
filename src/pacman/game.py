@@ -59,7 +59,7 @@ class ChickmanGame(arcade.Window):
         # Score
         self.score = 0
         
-        # Power mode (frightened ghosts)
+        # Power mode (frightened foxes)
         self.power_mode = False
         self.power_timer = 0.0
         
@@ -217,34 +217,34 @@ class ChickmanGame(arcade.Window):
                 self.power_mode = False
                 self.power_timer = 0.0
                 print("⚡ Power mode ended!")
-                # Set ghosts back to normal
-                if self.ghost_manager:
-                    self.ghost_manager.set_all_frightened(False)
+                # Set foxes back to normal
+                if self.fox_manager:
+                    self.fox_manager.set_all_frightened(False)
         
         # Update player if game started
         if self.game_started and self.player:
             self.player.update(self.maze)  # Pass maze for collision detection
-            
-            # Update ghosts
-            if self.ghost_manager:
-                self.ghost_manager.update(self.maze, self.player.center_x, self.player.center_y)
-                
-                # Check ghost collisions
-                colliding_ghosts = self.ghost_manager.check_collisions_with_player(
+
+            # Update foxes
+            if self.fox_manager:
+                self.fox_manager.update(self.maze, self.player.center_x, self.player.center_y)
+
+                # Check fox collisions
+                colliding_foxes = self.fox_manager.check_collisions_with_chicken(
                     self.player.center_x,
                     self.player.center_y,
                     self.player.radius
                 )
                 
-                for ghost in colliding_ghosts:
-                    if ghost.state.value == "frightened":
-                        # Eat the ghost
-                        ghost.set_state(ghost.state.__class__["EATEN"])
+                for fox in colliding_foxes:
+                    if fox.state.value == "frightened":
+                        # Eat the fox
+                        fox.set_state(fox.state.__class__["EATEN"])
                         self.score += 200
-                        print(f"👻 Ate {ghost.name}! +200 points")
-                    elif ghost.state.value != "eaten":
-                        # Ghost caught chicken
-                        print("💀 Game Over! Ghost caught the chicken!")
+                        print(f"🦊 Ate {fox.name}! +200 points")
+                    elif fox.state.value != "eaten":
+                        # Fox caught chicken
+                        print("💀 Game Over! Fox caught the chicken!")
                         # TODO: Implement lives system
             
             # Check seed collisions
