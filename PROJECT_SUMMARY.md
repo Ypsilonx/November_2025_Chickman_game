@@ -198,10 +198,10 @@ STARTING_LIVES = 3
 
 2. **Vytvoř GitHub repository:**
    - Jdi na GitHub → New Repository
-   - Název: `chickman-game` nebo `junior-guru-chickman`
+   - Název: `November_2025_Chickman_game`
    - Push kód:
      ```bash
-     git remote add origin https://github.com/YOUR_USERNAME/REPO_NAME.git
+     git remote add origin https://github.com/Ypsilonx/November_2025_Chickman_game.git
      git branch -M main
      git push -u origin main
      ```

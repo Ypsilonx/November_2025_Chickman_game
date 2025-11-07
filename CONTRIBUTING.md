@@ -22,8 +22,8 @@ Tento projekt dodržuje [Code of Conduct](CODE_OF_CONDUCT.md). Účastí souhlas
 ```bash
 # Fork repozitář přes GitHub UI
 # Pak naklonuj svůj fork
-git clone https://github.com/TVŮJ_USERNAME/chickman-game.git
-cd chickman-game
+git clone https://github.com/Ypsilonx/November_2025_Chickman_game.git
+cd November_2025_Chickman_game
 ```
 
 ### 2. Vytvoř Branch
@@ -243,7 +243,7 @@ Použij [Feature Request template](.github/ISSUE_TEMPLATE/feature_request.md) a 
 ### Diskuze před implementací
 
 Pro větší změny prosím:
-1. Otevři issue s návrhem
+1. Zkontroluj [existující issues](https://github.com/Ypsilonx/November_2025_Chickman_game/issues)
 2. Počkej na zpětnou vazbu od maintainerů
 3. Diskutuj design a přístup
 4. Pak začni implementovat
@@ -269,7 +269,7 @@ Pro větší změny prosím:
 ## Otázky?
 
 - 💬 Discord: [junior.guru](https://junior.guru/discord/)
-- 📧 Issues: [GitHub Issues](https://github.com/yourusername/chickman-game/issues)
+- 📧 Issues: [GitHub Issues](https://github.com/Ypsilonx/November_2025_Chickman_game/issues)
 
 ---
 

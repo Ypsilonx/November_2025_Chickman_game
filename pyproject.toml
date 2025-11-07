@@ -42,9 +42,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/chickman-game"
-Repository = "https://github.com/yourusername/chickman-game"
-Issues = "https://github.com/yourusername/chickman-game/issues"
+Homepage = "https://github.com/Ypsilonx/November_2025_Chickman_game"
+Repository = "https://github.com/Ypsilonx/November_2025_Chickman_game"
+Issues = "https://github.com/Ypsilonx/November_2025_Chickman_game/issues"
 
 [project.scripts]
 chickman = "pacman.game:main"

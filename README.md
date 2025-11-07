@@ -26,12 +26,12 @@ An infinite runner game where a brave chicken collects seeds while avoiding cunn
 - Python 3.9 nebo vyšší
 - pip (správce balíčků)
 
-### Instalace
+## 🚀 Instalace
 
 1. **Naklonuj repozitář:**
    ```bash
-   git clone https://github.com/yourusername/chickman-game.git
-   cd chickman-game
+   git clone https://github.com/Ypsilonx/November_2025_Chickman_game.git
+   cd November_2025_Chickman_game
    ```
 
 2. **Vytvoř virtuální prostředí:**
@@ -69,7 +69,7 @@ An infinite runner game where a brave chicken collects seeds while avoiding cunn
 ## 🏗️ Struktura projektu
 
 ```
-chickman-game/
+November_2025_Chickman_game/
 ├── src/pacman/          # Hlavní zdrojové soubory (název složky zachován pro kompatibilitu)
 │   ├── entities/        # Kuře (chicken), lišky (foxes), semínka (seeds)
 │   ├── maps/            # Bludiště a level design
@@ -139,7 +139,7 @@ Tento projekt je licencován pod MIT licencí - viz [LICENSE](LICENSE) soubor.
 ## 📞 Kontakt
 
 - Discord: [junior.guru](https://junior.guru/discord/)
-- Issues: [GitHub Issues](https://github.com/yourusername/chickman-game/issues)
+- Issues: [GitHub Issues](https://github.com/Ypsilonx/November_2025_Chickman_game/issues)
 
 ---
 
